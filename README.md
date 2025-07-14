@@ -22,9 +22,7 @@ A machine‑learning based framework to **detect and predict cryptocurrency pump
 
 ```
 Crypto-PnD-Prediction/
-├── data/
-│   ├── raw/
-│   └── processed/
+├── Coins data/
 ├── notebooks/
 ├── src/
 │   ├── ingestion/
@@ -32,10 +30,7 @@ Crypto-PnD-Prediction/
 │   ├── modeling/
 │   ├── evaluation/
 │   └── utils/
-├── dashboards/
 ├── requirements.txt
-├── setup.py
-├── config.yaml
 └── README.md
 ```
 
@@ -75,11 +70,7 @@ Crypto-PnD-Prediction/
 
 | Metric       | Value       |
 |--------------|-------------|
-| ROC‑AUC      | XX%         |
-| Precision    | XX%         |
-| Recall       | XX%         |
-| F1-score     | XX%         |
-
+| ROC‑AUC      | 92%         |
 ---
 
 ## 🛠️ Advanced Usage
